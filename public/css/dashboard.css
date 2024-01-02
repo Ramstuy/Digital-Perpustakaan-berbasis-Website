@@ -1,0 +1,150 @@
+/* styles.css content */
+.card-body {
+  border: 1px solid #ced4da; /* Example border style */ /* Optional: Add border radius for rounded corners */
+  /* Optional: Hide any content that overflows the card */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%; /* Make the image fill the entire height of the card */
+  object-fit: cover; /* Ensure the image covers the entire space without stretching */
+}
+/* styles.css content */
+.imgicon {
+  height: 40px;
+}
+.img {
+  height: 300px; /* Fixed height for the card */
+  display: flex;
+}
+
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.img-top {
+  width: 350px;
+  height: 500px; /* Make the image fill the entire height of the card */
+  object-fit: cover;
+}
+
+.navbar-dark .form-control {
+  color: #fff; /* Set text color to white */
+  background-color: rgba(255, 255, 255, 0.1); /* Set input background color */
+  border-color: rgba(255, 255, 255, 0.1); /* Set input border color */
+}
+
+.navbar-dark .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.5); /* Set placeholder color */
+}
+
+.navbar-dark .form-control:focus {
+  color: #fff; /* Set focused input text color to white */
+  background-color: rgba(255, 255, 255, 0.3); /* Set focused input background color */
+  border-color: rgba(255, 255, 255, 0.3); /* Set focused input border color */
+}
+
+.navbar-dark .btn-outline-light {
+  color: #fff; /* Set button text color to white */
+  border-color: rgba(255, 255, 255, 0.5); /* Set button border color */
+}
+
+.navbar-dark .btn-outline-light:hover {
+  color: #000; /* Set button text color on hover */
+  background-color: #fff; /* Set button background color on hover */
+  border-color: #fff; /* Set button border color on hover */
+}
+
+.card-body {
+      height: 195px; /* Set a fixed height for the card body */
+      overflow: hidden; /* Hide overflowing content */
+  }
+
+  /* Truncate long titles */
+  .card-title {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 3; /* Number of lines to show */
+      line-height: 1.5; /* Line height for the ellipsis */
+      max-height:10em; /* Calculate this value based on line clamp and line height */
+  }
+  .card {
+      position: relative; /* Set position to relative for positioning the button */
+  }
+
+  /* Position the button at the bottom-left corner */
+  .btn-bottom-left {
+      position: absolute;
+      bottom: 11px; /* Adjust this value to change vertical positioning */
+      left: 11px; /* Adjust this value to change horizontal positioning */
+  }
+
+  /* Define the custom input and button styles */
+.custom-input {
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+.custom-btn {
+  width: 100%;
+  max-width: 300px; /* Adjust the maximum width as needed */
+}
+
+#customSidebar {
+  border-right: 1px solid #ccc; /* Adjust the color and width as needed */
+  height: 110vh;
+  flex-direction: column;
+}
+
+/* Ensure the sidebar content fills the available space */
+#sidebarMenu {
+  flex: 1;
+}
+
+/* Default styles */
+/* Default styles */
+.nav-linke {
+  color: black;
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-linke i,
+.nav-linke span {
+  color: black;
+}
+
+/* Hover effect */
+.nav-linke:hover {
+  background-color: var(--bs-dark); /* Use Bootstrap's dark color */
+  color: white;
+}
+
+.nav-linke:hover i,
+.nav-linke:hover span {
+  color: white;
+}
+
+/* Active (selected) state */
+.nav-linke.active {
+  background-color: var(--bs-dark); /* Use Bootstrap's dark color */
+  color: white;
+}
+
+.nav-linke.active i,
+.nav-linke.active span {
+color: white;
+}
+
+/* Define the max-width and max-height for the preview image */
+.img-preview {
+  max-width: 100px; /* Adjust as needed */
+  max-height: 100px; /* Adjust as needed */
+}
+
+
+
