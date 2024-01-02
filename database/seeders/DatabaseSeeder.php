@@ -22,7 +22,16 @@ class DatabaseSeeder extends Seeder
            'name'=>'Aldous Tiktok',
            'username'=>'average',
            'email'=>'ooomaga@gmail.com',
-           'password'=>bcrypt('123123')
+           'password'=>bcrypt('123123'),
+           'is_admin'=>0
+        ]);
+
+        User::create([
+           'name'=>'Ikram Hidayat',
+           'username'=>'ramstuy',
+           'email'=>'ikrhidayat@gmail.com',
+           'password'=>bcrypt('121311'),
+           'is_admin'=>1
         ]);
 
         Category::create([
@@ -37,20 +46,10 @@ class DatabaseSeeder extends Seeder
 
         Category::create([
             'name'=>'History',
-            'slug'=>'History'
+            'slug'=>'history'
             ]);       
 
         // Book::factory(2)->create();
-        
-        // Book::create([
-        //     'user_id'=>2,
-        //     'category_id'=>1,
-        //     'title'=>'The Outsider',
-        //     'slug'=>'the-outsider',
-        //     'quantity'=>4,
-        //     'description'=>'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto cumque, illo illum fugit, saepe molestiae mollitia maiores reiciendis quisquam veniam ullam impedit ipsam in? Enim esse error amet ipsam. <p>Minus eligendi placeat ex similique odio delectus repellendus maiores accusamus odit excepturi quo dignissimos possimus, consequatur a aperiam vero porro magnam quis eum qui totam deserunt enim fugit.</p> Et voluptate saepe earum sunt adipisci mollitia iure voluptatibus, natus, consectetur dolorem laborum impedit libero explicabo veniam tenetur expedita aperiam praesentium quis, sapiente quibusdam assumenda? Facere, nemo recusandae? Ducimus exercitationem, illum quod odit molestiae harum quaerat ipsum incidunt, id ipsam dolores officia blanditiis!',
-        //     'file'=>'anufile',
-        //     'cover'=>'anucover'
-        // ]);
+
     }
 }

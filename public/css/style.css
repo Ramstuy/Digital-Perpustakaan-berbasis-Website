@@ -1,20 +1,20 @@
-/* styles.css content */
+
 .card-body {
-    border: 1px solid #ced4da; /* Example border style */ /* Optional: Add border radius for rounded corners */
-    /* Optional: Hide any content that overflows the card */
+    border: 1px solid #ced4da; 
+    
 }
 
 .card-img-top {
     width: 100%;
-    height: 300px; /* Make the image fill the entire height of the card */
-    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+    height: 300px; 
+    object-fit: cover; 
 }
-/* styles.css content */
+
 .imgicon {
     height: 40px;
 }
 .img {
-    height: 300px; /* Fixed height for the card */
+    height: 300px; 
     display: flex;
 }
 
@@ -26,72 +26,70 @@
 
 .img-top {
     width: 350px;
-    height: 500px; /* Make the image fill the entire height of the card */
+    height: 500px; 
     object-fit: cover;
 }
 
 .navbar-dark .form-control {
-    color: #fff; /* Set text color to white */
-    background-color: rgba(255, 255, 255, 0.1); /* Set input background color */
-    border-color: rgba(255, 255, 255, 0.1); /* Set input border color */
+    color: #fff; 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-color: rgba(255, 255, 255, 0.1); 
 }
 
 .navbar-dark .form-control::placeholder {
-    color: rgba(255, 255, 255, 0.5); /* Set placeholder color */
+    color: rgba(255, 255, 255, 0.5); 
 }
 
 .navbar-dark .form-control:focus {
-    color: #fff; /* Set focused input text color to white */
-    background-color: rgba(255, 255, 255, 0.3); /* Set focused input background color */
-    border-color: rgba(255, 255, 255, 0.3); /* Set focused input border color */
+    color: #fff; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    border-color: rgba(255, 255, 255, 0.3); 
 }
 
 .navbar-dark .btn-outline-light {
-    color: #fff; /* Set button text color to white */
-    border-color: rgba(255, 255, 255, 0.5); /* Set button border color */
+    color: #fff; 
+    border-color: rgba(255, 255, 255, 0.5); 
 }
 
 .navbar-dark .btn-outline-light:hover {
-    color: #000; /* Set button text color on hover */
-    background-color: #fff; /* Set button background color on hover */
-    border-color: #fff; /* Set button border color on hover */
+    color: #000;
+    background-color: #fff; 
+    border-color: #fff; 
 }
 
 .card-body {
-        height: 170px; /* Set a fixed height for the card body */
-        overflow: hidden; /* Hide overflowing content */
+        height: 170px; 
+        overflow: hidden; 
     }
 
-    /* Truncate long titles */
     .card-title {
         display: -webkit-box;
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
-        -webkit-line-clamp: 2; /* Number of lines to show */
-        line-height: 1.5; /* Line height for the ellipsis */
-        max-height:10em; /* Calculate this value based on line clamp and line height */
+        -webkit-line-clamp: 2; 
+        line-height: 1.5; 
+        max-height:10em; 
     }
     .card {
-        position: relative; /* Set position to relative for positioning the button */
+        position: relative; 
     }
 
-    /* Position the button at the bottom-left corner */
+
     .btn-bottom-left {
         position: absolute;
-        bottom: 11px; /* Adjust this value to change vertical positioning */
-        left: 11px; /* Adjust this value to change horizontal positioning */
+        bottom: 11px; 
+        left: 11px; 
     }
 
-    /* Define the custom input and button styles */
 .custom-input {
     width: 100%;
-    max-width: 300px; /* Adjust the maximum width as needed */
+    max-width: 300px; 
   }
   
   .custom-btn {
     width: 100%;
-    max-width: 300px; /* Adjust the maximum width as needed */
+    max-width: 300px; 
   }
   
 

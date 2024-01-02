@@ -23,7 +23,6 @@ class CreateBooksTable extends Migration
             $table->text('description');
             $table->string('file');
             $table->string('cover');
-            // $table->timestamp('uploaded_at')->nullable();
             $table->timestamps();
         });
     }
