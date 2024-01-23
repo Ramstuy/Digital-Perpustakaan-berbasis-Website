@@ -26,7 +26,7 @@
                                 @endif
                                 <br>
                                 <span class="username">
-                                    Hey, {{ auth()->user()->username }}
+                                    Hey, <strong>{{ auth()->user()->username }}</strong>
                                 </span>
                             </a>
                         </li>

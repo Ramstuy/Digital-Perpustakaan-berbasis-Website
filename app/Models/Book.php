@@ -9,11 +9,6 @@ use Cviebrock\EloquentSluggable\Sluggable;
 class Book extends Model
 {
     use HasFactory;
-    // protected $guarded = [
-    //     'id',
-    //     'user_id',
-    //     'category_id'
-    // ];
 
     protected $fillable = [
         'user_id',
@@ -46,13 +41,4 @@ class Book extends Model
     public function getRouteKeyName(){
         return 'slug';
     }
-
-    // public function sluggable(): array
-    // {
-    //     return [
-    //         'slug' => [
-    //             'source' => 'title'
-    //         ]
-    //     ];
-    // }
 }

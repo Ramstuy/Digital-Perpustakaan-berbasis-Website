@@ -38,7 +38,6 @@ Route::get('/dashboard', function(){
     return view('dashboard.index');
 })->middleware('auth');
 
-// Route::get('/dashboard/books/checkSlug', [DashboardBookController::class, 'checkSlug'])->middleware('auth');
 Route::resource('/dashboard/books', DashboardBookController::class)->middleware('auth');
 
 Route::resource('/dashboard/categories', AdminCategoryController::class)->except('show')->middleware('admin');
